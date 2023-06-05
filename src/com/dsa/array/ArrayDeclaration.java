@@ -7,6 +7,7 @@ public class ArrayDeclaration {
         int []arr2 = {23, 56, 8};
         int[] arr3 = new int[3];
         int []arr4 = {3, 0, 8, 5};
+        int arr[] = { 1, 2, 3, 4, 5 };
 
         printArray(arr1);
         printArray(arr2);

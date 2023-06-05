@@ -1,0 +1,29 @@
+Time Complexity : Time complexity is given by time as a function of the length of the input
+
+Big O Notation : Big O Notation expresses the run time of an algorithm in terms of how quickly
+it grows relative to the input ‘n’ by defining the N number of operations that are done on it
+
+> Types
+    Constant Time -> O(1)
+    Linear Time -> O(n)
+    Logarthmic Time -> O(log n)
+    Quadratic Time -> O(n^2)
+    Cubic Time -> O(n^3)
+    Exponential time
+    Quasilinear time
+    Factorial time
+
+Constant time –> O (1)
+    An algorithm is said to have constant time with order O (1) when it is not dependent on the input size n.
+    Irrespective of the input size n (size of the data structure), the runtime will always be the same.
+    Example 1: arr[0]; To get the first element in an array of any length is the same.
+    Example 2: arr[2] = 10; To insert a single element
+
+Linear Time -> O(n)
+    An algorithm is said to have a linear time complexity when the running time increases linearly with the length of the input.
+
+
+
+
+
+
