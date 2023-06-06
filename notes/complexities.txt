@@ -21,6 +21,21 @@ Constant time –> O (1)
 
 Linear Time -> O(n)
     An algorithm is said to have a linear time complexity when the running time increases linearly with the length of the input.
+    Example 1: O(n) to insert all the array elements, where n is length of the array
+    Example 2: To find a particular value in the array, in order to do that we need to access all the array elements and look for the particular value
+               In general, iterating over an array for an operation, will be O(n)
+
+Logarthmic Time -> O(log n)
+    Algorithms are found in binary trees or binary search functions.
+    This involves the search of a given value in an array by splitting the array into two and starting searching in one split.
+    This ensures the operation is not done on every element of the data.
+
+Quadratic Time -> O(n^2)
+    An algorithm is said to have a non-linear time complexity where the running time increases non-linearly (n^2)
+    with the length of the input. Generally, nested loops come under this order where one loop takes O(n)
+    and if the function involves a loop within a loop, then it goes for O(n)*O(n) = O(n^2) order.
+
+
 
 
 
